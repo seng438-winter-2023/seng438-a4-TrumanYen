@@ -429,6 +429,7 @@ public class DataUtilitiesTest{
     	
     	assertEquals(msg,expected, actual, .000000001d);
     }
+    @Test
     public void test_columnTotal_nullValues() {
     	double expected = 0 ;
     	String msg = "Expect return 0";
